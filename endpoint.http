@@ -1,0 +1,8 @@
+curl -X POST http://localhost:3000/transactions \
+  -d "from_wallet_id=2&to_wallet_id=6&amount=700"
+
+###
+
+curl -X POST http://localhost:3000/session \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "email=ayu@example.com&password=ayu123"
